@@ -2,19 +2,22 @@
 
 
 ## Tabla de Contenido
-- [¿Qué es Python?](#¿qué-es-python?)
-  - [Instalación](#instalación)
-  - [Antes de empezar](#antes-de-empezar)
-  - [Tipos de datos en python](#tipos-de-datos-en-python)
-  - [Funciones](#funciones)
-  - [Variables](#variables)
-  - [Listas](#listas)
-  - [Tuplas](#tuplas)
-  - [Diccionarios](#diccionarios)
-  - [Conversiones](#conversiones)
-  - [Operadores comunes](#operadores-comunes)
-  - [Clases](#clases)
-  - [Métodos especiales](#métodos-especiales)
+- [¿Qué es Python?](#qué-es-python)
+  - [Instalación](#Instalación)
+  - [Antes de Empezar](#Antes-de-Empezar)
+  - [Tipos de Datos en Python](#Tipos-de-Datos-en-Python)
+  - [Funciones](#Funciones)
+  - [Variables](#Variables)
+  - [Listas](#Listas)
+  - [Tuplas](#Tuplas)
+  - [Diccionarios](#Diccionarios)
+  - [Conversiones](#Conversiones)
+  - [Operadores Comunes](#Operadores-Comunes)
+  - [Clases](#Clases)
+  - [Métodos Especiales](#Métodos-Especiales)
+  - [Condicionales IF](#Condicionales-IF)
+  - [Bucle FOR](#Bucle FOR)
+  - [Bucle WHILE](#Bucle WHILE)
 
 ##  ¿Qué es Python?
 
@@ -49,6 +52,10 @@
     $ sudo apt-get install python3.x
   ```
 
+  <div align="right">
+    <small><a href="#tabla-de-contenido">volver al inicio</a></small>
+  </div>
+
 ##  Antes de empezar:
   Para usar Python debemos tener un editor de texto abierto y una terminal o cmd (línea de comandos) como administrador.
 
@@ -66,7 +73,6 @@
     $ python archivo.py
   ```
   Ten en cuenta que para ejecutar el archivo con extensión “.py” debes estar ubicado en el directorio donde tienes guardado el archivo.
-
 
   <div align="right">
     <small><a href="#tabla-de-contenido">volver al inicio</a></small>
