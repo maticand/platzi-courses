@@ -2,8 +2,8 @@
 
 
 ## Tabla de Contenido
-- [¿Qué es Python?](#Que-es-python)
-  - [Instalación](#instalacion)
+- [¿Qué es Python?](#¿Qué-es-Python?)
+  - [Instalación](#Instalación)
 
 #  ¿Qué es Python?
 
