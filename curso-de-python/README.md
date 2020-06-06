@@ -16,8 +16,8 @@
   - [Clases](#Clases)
   - [Métodos Especiales](#Métodos-Especiales)
   - [Condicionales IF](#Condicionales-IF)
-  - [Bucle FOR](#Bucle FOR)
-  - [Bucle WHILE](#Bucle WHILE)
+  - [Bucle FOR](#Bucle-FOR)
+  - [Bucle WHILE](#Bucle-WHILE)
 
 ##  ¿Qué es Python?
 
@@ -30,6 +30,10 @@
   Portable: para todo sistema operativo.
   Recargado: viene con muchas librerías por defecto.
   Editor recomendado: Atom o Sublime Text.
+
+  <div align="right">
+    <small><a href="#tabla-de-contenido">volver al inicio</a></small>
+  </div>
 
 ##  Instalación
 
@@ -56,7 +60,7 @@
     <small><a href="#tabla-de-contenido">volver al inicio</a></small>
   </div>
 
-##  Antes de empezar:
+##  Antes de Empezar:
   Para usar Python debemos tener un editor de texto abierto y una terminal o cmd (línea de comandos) como administrador.
 
   Para ejecutar Python abres la terminal y escribes:
@@ -78,7 +82,7 @@
     <small><a href="#tabla-de-contenido">volver al inicio</a></small>
   </div>
 
-## Tipos de datos en python
+## Tipos de Datos en Python
 
   **Enteros (int):** en este grupo están todos los números, enteros y long:
   **ejemplo:** ```1, 2.3, 2121, 2192, -123```
@@ -189,7 +193,7 @@
     <small><a href="#tabla-de-contenido">volver al inicio</a></small>
   </div>
 
-## Operadores comunes
+## Operadores Comunes
   Longitud de una cadena, lista, tupla, etc.:
   ```
    >>> len("key")
@@ -271,7 +275,7 @@
     <small><a href="#tabla-de-contenido">volver al inicio</a></small>
   </div>
 
-## Métodos especiales
+## Métodos Especiales
   **cmp**(self,otro)
   Método llamado cuando utilizas los operadores de comparación para comprobar si tu objeto es menor, mayor o igual al objeto pasado como parámetro.
 
@@ -296,6 +300,10 @@
    	elementos
   ```
 
+  <div align="right">
+    <small><a href="#tabla-de-contenido">volver al inicio</a></small>
+  </div>
+
 ##  Bucle FOR
   El bucle de for lo puedes usar de la siguiente forma: recorres una cadena o lista a la cual va a tomar el elemento en cuestión con la siguiente estructura:
 
@@ -307,6 +315,10 @@
    	print i
   ```
   En este caso recorrerá una lista de diez elementos, es decir el ``` print i``` se debe ejecutar diez veces. Ahora ``` i```  va a tomar cada valor de la lista, entonces este ``` for```  imprimirá los números del 0 al 9 (recordar que en un range vas hasta el número puesto -1).
+
+  <div align="right">
+    <small><a href="#tabla-de-contenido">volver al inicio</a></small>
+  </div>
 
 ##  Bucle WHILE
   En este caso while tiene una condición que determina hasta cuándo se ejecutará. O sea que dejará de ejecutarse en el momento en que la condición deje de ser cierta. La estructura de un while es la siguiente:
@@ -321,3 +333,8 @@
    ... 	x += 1
   ```
   En este ejemplo preguntará si es menor que diez. Dado que es menor imprimirá x y luego sumará una unidad a x. Luego x es 1 y como sigue siendo menor a diez se seguirá ejecutando, y así sucesivamente hasta que x llegue a ser mayor o igual a 10.
+
+  <div align="right">
+    <small><a href="#tabla-de-contenido">volver al inicio</a></small>
+  </div>
+  
