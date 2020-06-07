@@ -21,9 +21,7 @@
 - [Uso de Strings y Ciclos](#Uso-de-Strings-y-Ciclos)
   - [Comparación de Strings y Unicode](#Comparación-de-Strings-y-Unicode)
   - [Factorial de un número con Recursión](#Factorial-de-un-número-con-Recursión)
-
-
-  - [El Zen de Python](#El-Zen-de-Python)
+- [El Zen de Python](#El-Zen-de-Python)
 
 ##  ¿Qué es Python?
 
