@@ -391,6 +391,10 @@ Esto se puede expresar como
 ```
 **Nota importante:** Cuándo estes trabajando con recursividad siempre debes pensar en el caso base, es decir debes definir el momento en el que la función dejará de llamarse a si misma, para que no hagas un loop infinito, por ejemplo en el caso del factorial terminas la ejecución cuando llegas a cero.
 
+  <div align="right">
+    <small><a href="#tabla-de-contenido">volver al inicio</a></small>
+  </div>
+
 
 ##  El Zen de Python
   Hermoso es mejor que feo.
