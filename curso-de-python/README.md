@@ -18,6 +18,12 @@
   - [Condicionales IF](#Condicionales-IF)
   - [Bucle FOR](#Bucle-FOR)
   - [Bucle WHILE](#Bucle-WHILE)
+- [Uso de Strings y Ciclos](#Uso-de-Strings-y-Ciclos)
+  - [Comparación de Strings y Unicode](#Comparación-de-Strings-y-Unicode)
+  - [Factorial de un número con Recursión](#Factorial-de-un-número-con-Recursión)
+
+
+  - [El Zen de Python](#El-Zen-de-Python)
 
 ##  ¿Qué es Python?
 
@@ -109,7 +115,7 @@
   </div>
 
 ## Funciones
-  Las funciones las defines con **def** junto a un nombre y unos paréntesis que reciben los parámetros a usar. Terminas con dos puntos.
+  Las funciones se definen usando la palabra reservada **def** y luego el nombre de la función con paréntesis y dos puntos que indican que lo que sigue son los parametros, una función debe retornar un valor, para esto se usa la palabra reservada return.
   ```
     def nombre_de_la_función(parametros):
   ```
@@ -121,6 +127,14 @@
    >>> my_first_function()
    Hello World!
   ```
+  Imprimir valor de variable
+
+  Para poder imprimir el valor de una variable dentro de un string podemos hacerlo así:
+  ```
+  '${} pasos mexicanos son ${} pesos mexicanos'.format(ammount, result)
+  ```
+  Cada vez que una función se ejecuta se genera un contenedor donde las variables de la función van a vivir, una vez se sale de la función estas variables no van a existir.
+
   <div align="right">
     <small><a href="#tabla-de-contenido">volver al inicio</a></small>
   </div>
@@ -333,6 +347,71 @@
    ... 	x += 1
   ```
   En este ejemplo preguntará si es menor que diez. Dado que es menor imprimirá x y luego sumará una unidad a x. Luego x es 1 y como sigue siendo menor a diez se seguirá ejecutando, y así sucesivamente hasta que x llegue a ser mayor o igual a 10.
+
+  <div align="right">
+    <small><a href="#tabla-de-contenido">volver al inicio</a></small>
+  </div>
+
+## Uso de Strings y Ciclos
+## Comparación de Strings y Unicode
+  Los strings tienen una característica muy importante: son inmutables, esto quiere decir que no se pueden cambiar después de que se han declarado.
+
+  Si quieres modificar el texto de un string debes definir un nuevo string y modificarlo usando funciones como slice.
+
+  **Comparación de strings**
+
+  Se pueden realizar operaciones con strings, por ejemplo comparar si son iguales o mayores o menores.
+
+  **Diferencia entre ASCII y Unicode**
+
+  Los caracteres también son números, para esto existen estándares que asignan un número a cada carácter, para generar un estándar se creó el ASCII pero esta solo toma en cuenta los caracteres en inglés, para dar soporte a más lenguajes se crea UNICODE.
+
+  Python codifica en ASCII por default, para cambiarlo por UNICODE debemos colocar u antes del string.
+
+  <div align="right">
+    <small><a href="#tabla-de-contenido">volver al inicio</a></small>
+  </div>
+
+##  Factorial de un número con Recursión
+una función está siendo recursiva cuando dentro de el bloque de instrucciones que la conforma se usa a sí misma.
+
+El concepto puede sonar complicado pero es muy común su uso, por ejemplo cuando haces el calculo del factorial de un número lo haces con una función recursiva:
+
+El factorial de un número es el número multiplicado por los números antes de el, por ejemplo
+
+5! es 5*4*3*2*1
+
+Esto se puede expresar como
+```
+  5*fac(4)
+  4*fac(3)
+  3*fac(2)
+  2*fac(1)
+  1*fac(0)
+```
+**Nota importante:** Cuándo estes trabajando con recursividad siempre debes pensar en el caso base, es decir debes definir el momento en el que la función dejará de llamarse a si misma, para que no hagas un loop infinito, por ejemplo en el caso del factorial terminas la ejecución cuando llegas a cero.
+
+
+##  El Zen de Python
+  Hermoso es mejor que feo.
+  Explícito es mejor que implícito.
+  Simple es mejor que complejo.
+  Complejo es mejor que complicado.
+  Sencillo es mejor que anidado.
+  Escaso es mejor que denso.
+  La legibilidad cuenta.
+  Los casos especiales no son lo suficientemente especiales para romper las reglas.
+  Lo práctico le gana a la pureza.
+  Los errores no debe pasar en silencio.
+  A menos que sean silenciados.
+  En cara a la ambigüedad, rechazar la tentación de adivinar.
+  Debe haber una - y preferiblemente sólo una - manera obvia de hacerlo.
+  Aunque esa manera puede no ser obvia en un primer momento a menos que seas holandés.
+  Ahora es mejor que nunca.
+  Aunque “nunca” es a menudo mejor que “ahora mismo”.
+  Si la aplicación es difícil de explicar, es una mala idea.
+  Si la aplicación es fácil de explicar, puede ser una buena idea.
+  Los espacios de nombres son una gran idea ¡hay que hacer más de eso!
 
   <div align="right">
     <small><a href="#tabla-de-contenido">volver al inicio</a></small>
